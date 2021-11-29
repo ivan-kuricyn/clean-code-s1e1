@@ -63,7 +63,7 @@ button {
 
 button {
   background: none;
-  border: 0px;
+  border: 0;
   color: #888;
   font-size: 15px;
   width: 60px;
@@ -77,7 +77,7 @@ button:hover {
 
 /* Heading */
 
-.section-header {
+.heading {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -163,11 +163,11 @@ button:hover {
   display: none;
 }
 
-.list .list-item#edit-mode .text-field {
+.list .list-item.edit-mode .text-field {
   display: inline-block;
   width: 224px;
 }
 
-.list .list-item#edit-mode .label {
+.list .list-item.edit-mode .label {
   display: none;
 }
